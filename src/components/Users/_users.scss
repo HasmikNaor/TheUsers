@@ -1,0 +1,17 @@
+.users {
+  &__list {
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  }
+  &__btn {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    :hover{
+      background-color: rgb(172, 172, 172);
+      cursor: pointer;
+    }
+  }
+}

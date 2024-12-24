@@ -1,0 +1,26 @@
+.user {
+  list-style: none;
+  border: 1px solid white;
+  margin: 5px;
+  border-radius: 10px;
+  &__icon {
+    width:80%;
+    height: 80%;
+  }
+  &__img {
+    width:72px;
+    max-height: 72px;
+    border-radius: 5px;
+  }
+  &__btn {
+    background-color: transparent;
+    border: none;
+    padding:5px;
+    width:40px;
+    height: 40px;
+    :hover {
+      background-color: rgb(172, 172, 172);
+      cursor: pointer;
+    }
+  }
+}

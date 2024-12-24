@@ -1,0 +1,9 @@
+.popup {
+  padding:10px;
+  &__btn {
+    color:white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

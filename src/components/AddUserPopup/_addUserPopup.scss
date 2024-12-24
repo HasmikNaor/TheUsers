@@ -1,0 +1,9 @@
+.add-user-popup {
+  &__inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+.popup__input:last-child {
+  grid-column: span 2;
+}
